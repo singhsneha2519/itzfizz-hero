@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(),tailwindcss()],
-  base:"https://github.com/singhsneha2519/itzfizz-hero",
+  base:"/itzfizz-hero/",
 });
