@@ -1,16 +1,19 @@
-# React + Vite
+ Scroll-Driven Hero Animation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A scroll-driven hero section where a Ferrari drives across the screen as you scroll.
+Live demo: https://singhsneha2519.github.io/itzfizz-hero/
+Features
+- Staggered headline reveal and stat fade-in on page load
+- Car movement tied to scroll progress (not autoplay), smoothed with 'scrub'
+- Headline letters turn red as the car passes them
+- Stats reveal one at a time, with numbers counting up
+- Speed lines, red trail and slight body tilt on the car
+- Responsive layout for desktop and mobile
 
-Currently, two official plugins are available:
+Tech Stack
+- React (Vite)
+- Tailwind CSS
+- GSAP + ScrollTrigger
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Notes
+First project using GSAP, I look forward to learn more and improve.  
